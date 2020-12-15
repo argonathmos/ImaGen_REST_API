@@ -1,16 +1,16 @@
 # ImaGen_REST_API
 
 ## Node.js / Express REST API
-
-This API uses: /n
-**Public APIs**
+This API uses: 
+### Public APIs
 - PIXABAY API: https://pixabay.com/api/docs/
 - TUMBLR API: https://www.tumblr.com/docs/en/api/v2
-**NPM packages**
-- tumblr.js: (client for the api) https://www.npmjs.com/package/tumblr.js- 
-duckduckgo-images-api: https://www.npmjs.com/package/duckduckgo-images-api
 
-## Three endpoints (GET only(:
+### NPM packages
+- tumblr.js: (client for the api) https://www.npmjs.com/package/tumblr.js- 
+- duckduckgo-images-api: https://www.npmjs.com/package/duckduckgo-images-api
+
+## Three endpoints (GET only):
  - /pixabay
  - /duckduckgo
  - /tumblr

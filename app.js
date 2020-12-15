@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser')
 const pixabayCtrl = require('./controllers/pixabayCtrl');
+const duckduckgoCtrl = require('./controllers/duckduckgoCtrl');
+const tumblrCtrl = require('./controllers/tumblrCtrl');
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -16,6 +18,8 @@ app.use((req, res, next)=> {
 })
 
 app.get('/pixabay', pixabayCtrl.search_get);
+app.get('/duckduckgo', duckduckgoCtrl.search_get);
+app.get('/tumblr', tumblrCtrl.search_get);
 
 /* Error Handling */
 app.use((req, res, next) => {

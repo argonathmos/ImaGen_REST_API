@@ -22,13 +22,11 @@ Ex: https://imagen-rest-api.herokuapp.com/pixabay?q=mountain
 { src: 'https://pixabay.com/get/55e5d4414c54b10ff3d8992cc620327d133ddfe24e5077497d2f78d3934cc4_640.jpg' }
 `
 ### Error Handling:
-` 
-{error: 
+`{error: 
 	{
 		status: 404 ,
 		message: "Endpoint Not Found! Please refer to API documentation for valid enpoint." 
 	}
-
 }
 `
 

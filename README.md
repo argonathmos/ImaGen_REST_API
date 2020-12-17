@@ -30,7 +30,7 @@ Ex: https://imagen-rest-api.herokuapp.com/pixabay?q=mountain
 }
 `
 
-I am hosting the API on heroku to power some demo projects. 
+I am hosting the API on heroku to power some demo projects: https://imagen-react.netlify.app/ .
 You can use it for testing and learning purposes, be aware that with heroku free tier, the app goes to sleep :sleeping: if not active so it takes a while on the first request to wake it up. 
 Please also be mindful of rate limits. 
 If you intend to use this api in your own project, copy the code, get your personal API keys for pixabay and tumblr and host it where you want !  :cowboy_hat_face: 	

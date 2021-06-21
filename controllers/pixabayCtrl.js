@@ -1,9 +1,7 @@
-const url = require('url');
 const axios = require('axios');
 
 exports.search_get = (req, res, next) => {
-  let reqURL = url.parse(req.url, true);
-  const searchTerm = reqURL.query.q;
+  const searchTerm = req.query.q;
 
   axios
     .get('https://pixabay.com/api/', {

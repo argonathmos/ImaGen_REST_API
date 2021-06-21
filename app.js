@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-// const bodyParser = require('body-parser');
 const pixabayCtrl = require('./controllers/pixabayCtrl');
 const duckduckgoCtrl = require('./controllers/duckduckgoCtrl');
 const tumblrCtrl = require('./controllers/tumblrCtrl');

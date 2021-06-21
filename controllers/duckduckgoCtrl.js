@@ -1,9 +1,7 @@
-const url = require('url');
 const ddg = require('duckduckgo-images-api');
 
 exports.search_get = (req, res, next) => {
-  let reqURL = url.parse(req.url, true);
-  const searchTerm = reqURL.query.q;
+  const searchTerm = req.query.q;
   ddg
     .image_search({ query: searchTerm, moderate: true })
     .then((result) => {
